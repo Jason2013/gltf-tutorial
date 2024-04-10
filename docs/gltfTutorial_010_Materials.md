@@ -1,4 +1,3 @@
-Previous: [Meshes](gltfTutorial_009_Meshes.md) | [Table of Contents](README.md) | Next: [Simple Material](gltfTutorial_011_SimpleMaterial.md)
 
 # Materials
 
@@ -21,7 +20,7 @@ The metallic-roughness model is the representation that is used in glTF. Other m
 The effects of different metallic- and roughness values are illustrated in this image:
 
 <p align="center">
-<img src="images/metallicRoughnessSpheres.png" /><br>
+<img src="/images/metallicRoughnessSpheres.png" /><br>
 <a name="metallicRoughnessSpheres-png"></a>Image 10a: Spheres with different metallic- and roughness values.
 </p>
 

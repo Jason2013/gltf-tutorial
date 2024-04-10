@@ -1,4 +1,3 @@
-Previous: [Textures, Images, and Samplers](gltfTutorial_012_TexturesImagesSamplers.md) | [Table of Contents](README.md) | Next: [Advanced Material](gltfTutorial_014_AdvancedMaterial.md)
 
 # A Simple Texture
 
@@ -99,14 +98,14 @@ As shown in the previous sections, the material definition in a glTF asset conta
 The actual image that the texture consists of is stored as a PNG file called `"testTexture.png"` (see Image 15a).
 
 <p align="center">
-<img src="images/testTexture.png" /><br>
+<img src="/images/testTexture.png" /><br>
 <a name="testTexture-png"></a>Image 15a: The image for the simple texture example.
 </p>
 
 Bringing this all together in a renderer will result in the scene rendered in Image 15b.
 
 <p align="center">
-<img src="images/simpleTexture.png" /><br>
+<img src="/images/simpleTexture.png" /><br>
 <a name="simpleTexture-png"></a>Image 15b: A simple texture on a unit square.
 </p>
 

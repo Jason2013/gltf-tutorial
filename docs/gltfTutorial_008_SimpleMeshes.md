@@ -1,4 +1,3 @@
-Previous: [Animations](gltfTutorial_007_Animations.md) | [Table of Contents](README.md) | Next: [Meshes](gltfTutorial_009_Meshes.md)
 
 # Simple Meshes
 
@@ -95,7 +94,7 @@ The following is a glTF asset that contains a simple mesh with multiple attribut
 Image 8a shows the rendered glTF asset.
 
 <p align="center">
-<img src="images/simpleMeshes.png" /><br>
+<img src="/images/simpleMeshes.png" /><br>
 <a name="simpleMeshes-png"></a>Image 8a: A simple mesh, attached to two nodes.
 </p>
 

@@ -1,4 +1,3 @@
-Previous: [Materials](gltfTutorial_010_Materials.md) | [Table of Contents](README.md) | Next: [Textures, Images, Samplers](gltfTutorial_012_TexturesImagesSamplers.md)
 
 # A Simple Material
 
@@ -94,7 +93,7 @@ This is a minimal glTF asset with a simple material:
 When rendered, this asset will show the triangle with a new material, as shown in Image 11a.
 
 <p align="center">
-<img src="images/simpleMaterial.png" /><br>
+<img src="/images/simpleMaterial.png" /><br>
 <a name="simpleMaterial-png"></a>Image 11a: A triangle with a simple material.
 </p>
 

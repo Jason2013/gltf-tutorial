@@ -1,4 +1,3 @@
-Previous: [Advanced Material](gltfTutorial_014_AdvancedMaterial.md) | [Table of Contents](README.md) | Next: [Cameras](gltfTutorial_016_Cameras.md)
 
 # Simple Cameras
 
@@ -112,7 +111,7 @@ The following is a simple, complete glTF asset. It is similar to the assets that
 The geometry in this asset is a simple unit square. It is rotated by -45 degrees around the x-axis, to emphasize the effect of the different cameras. Image 15a shows three options for rendering this asset. The first examples use the cameras from the asset. The last example shows how the scene looks from an external, user-defined viewpoint.
 
 <p align="center">
-<img src="images/cameras.png" /><br>
+<img src="/images/cameras.png" /><br>
 <a name="cameras-png"></a>Image 15a: The effect of rendering the scene with different cameras.
 </p>
 
