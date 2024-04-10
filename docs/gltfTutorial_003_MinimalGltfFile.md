@@ -1,3 +1,4 @@
+Previous: [Basic glTF Structure](gltfTutorial_002_BasicGltfStructure.md) | [Table of Contents](README.md) | Next: [Scenes and Nodes](gltfTutorial_004_ScenesNodes.md)
 
 
 # A Minimal glTF File
@@ -78,7 +79,7 @@ The following is a minimal but complete glTF asset, containing a single, indexed
 ```
 
 <p align="center">
-<img src="/images/triangle.png" /><br>
+<img src="images/triangle.png" /><br>
 <a name="triangle-png"></a>Image 3a: A single triangle.
 </p>
 

@@ -1,3 +1,4 @@
+Previous: [Simple Skin](gltfTutorial_019_SimpleSkin.md) | [Table of Contents](README.md)
 
 
 # Skins
@@ -34,7 +35,7 @@ and the indices of the triangles are
 The raw data is stored in the first `buffer`. The indices and vertex positions are defined by the `bufferView` objects at index 0 and 1, and the corresponding `accessor` objects at index 0 and 1 offer typed access to these buffer views. Image 20a shows this geometry with outline rendering to better show the structure.
 
 <p align="center">
-<img src="/images/simpleSkinOutline01.png" /><br>
+<img src="images/simpleSkinOutline01.png" /><br>
 <a name="simpleSkinOutline01-png"></a>Image 20a: The geometry for the skinning example, with outline rendering, in its initial configuration.
 </p>
 
@@ -90,7 +91,7 @@ Joint `1` contains a translation about 1.0 along the y-axis. The inverse bind ma
 This matrix translates the mesh about -1.0 along the y-axis, as shown Image 20b.
 
 <p align="center">
-<img src="/images/skinInverseBindMatrix.png" /><br>
+<img src="images/skinInverseBindMatrix.png" /><br>
 <a name="skinInverseBindMatrix-png"></a>Image 20b: The transformation of the geometry with the inverse bind matrix of joint 1.
 </p>
 
@@ -138,7 +139,7 @@ Note: Vertex skinning in other contexts often involves a matrix that is called "
 Image 20c shows the transformations that are done to the geometry in the [Simple Skin](gltfTutorial_019_SimpleSkin.md) example, using the joint matrix of joint 1. The image shows the transformation for an intermediate state of the animation, namely, when the rotation of the joint node has already been modified by the animation, to describe a rotation about 45 degrees around the z-axis.
 
 <p align="center">
-<img src="/images/skinJointMatrices.png" /><br>
+<img src="images/skinJointMatrices.png" /><br>
 <a name="skinJointMatrices-png"></a>Image 20c: The transformation of the geometry done for joint 1.
 </p>
 
@@ -210,14 +211,14 @@ void main(void)
 The skin matrix is then used to transform the original position of the vertex into the world space. The transform of the node that the skin is attached to is ignored. The result of this transformation can be imagined as a weighted transformation of the vertices with the respective joint matrices, as shown in Image 20d.
 
 <p align="center">
-<img src="/images/skinSkinMatrix.png" /><br>
+<img src="images/skinSkinMatrix.png" /><br>
 <a name="skinSkinMatrix-png"></a>Image 20d: Computation of the skin matrix.
 </p>
 
 The result of applying this skin matrix to the vertices for the given example is shown in Image 20e.
 
 <p align="center">
-<img src="/images/simpleSkinOutline02.png" /><br>
+<img src="images/simpleSkinOutline02.png" /><br>
 <a name="simpleSkinOutline02-png"></a>Image 20e: The geometry for the skinning example, with outline rendering, during the animation.
 </p>
 

@@ -1,3 +1,4 @@
+Previous: [Simple Meshes](gltfTutorial_008_SimpleMeshes.md) | [Table of Contents](README.md) | Next: [Materials](gltfTutorial_010_Materials.md)
 
 # Meshes
 
@@ -32,7 +33,7 @@ In the given example, there are two entries in the `attributes` dictionary. The 
 Together, the elements of these accessors define the attributes that belong to the individual vertices, as shown in Image 9a.
 
 <p align="center">
-<img src="/images/meshPrimitiveAttributes.png" /><br>
+<img src="images/meshPrimitiveAttributes.png" /><br>
 <a name="meshPrimitiveAttributes-png"></a>Image 9a: Mesh primitive accessors containing the data of vertices.
 </p>
 

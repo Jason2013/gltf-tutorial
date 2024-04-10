@@ -1,3 +1,4 @@
+Previous: [Morph Targets](gltfTutorial_018_MorphTargets.md) | [Table of Contents](README.md) | Next: [Skins](gltfTutorial_020_Skins.md)
 
 # A Simple Skin
 
@@ -144,7 +145,7 @@ The following is a glTF asset that shows basic vertex skinning for a simple geom
 The result of rendering this asset is shown in Image 19a.
 
 <p align="center">
-<img src="/images/simpleSkin.gif" /><br>
+<img src="images/simpleSkin.gif" /><br>
 <a name="simpleSkin-gif"></a>Image 19a: A scene with simple vertex skinning.
 </p>
 

@@ -1,3 +1,4 @@
+[Table of Contents](README.md) | Next: [Basic glTF Structure](gltfTutorial_002_BasicGltfStructure.md)
 
 
 
@@ -8,7 +9,7 @@
 An increasing number of applications and services are based on 3D content. Online shops offer product configurators with a 3D preview. Museums digitize their artifacts with 3D scans and allow visitors to explore their collections in virtual galleries. City planners use 3D city models for planning and information visualization. Educators create interactive, animated 3D models of the human body. Many of these applications run directly in the web browser, which is possible because all modern browsers support efficient rendering with WebGL.
 
 <p align="center">
-<img src="/images/applications.png" /><br>
+<img src="images/applications.png" /><br>
 <a name="applications-png"></a>Image 1a: Screenshots of various websites and applications showing 3D models.
 </p>
 
@@ -26,7 +27,7 @@ More sophisticated 3D scenes can be created with authoring tools. These tools al
 In order to render such 3D content, the runtime application must be able to read different input file formats. The scene structure has to be parsed, and the 3D geometry data has to be converted into the format required by the graphics API. The 3D data has to be transferred to the graphics card memory, and then the rendering process can be described with sequences of graphics API calls. Thus, each runtime application has to create importers, loaders, or converters for all file formats that it will support, as shown in [Image 1b](#contentPipeline-png).
 
 <p align="center">
-<img src="/images/contentPipeline.png" /><br>
+<img src="images/contentPipeline.png" /><br>
 <a name="contentPipeline-png"></a>Image 1b: The 3D content pipeline today.
 </p>
 
@@ -43,7 +44,7 @@ None of the existing file formats were designed for the use case of efficiently 
 Different content creation tools may now provide 3D content in the glTF format. And an increasing number of client applications are able to consume and render glTF. Some of these applications are shown in [Image 1a](#applications-png). So glTF may help to bridge the gap between content creation and rendering, as shown in [Image 1c](#contentPipelineWithGltf-png).
 
 <p align="center">
-<img src="/images/contentPipelineWithGltf.png" /><br>
+<img src="images/contentPipelineWithGltf.png" /><br>
 <a name="contentPipelineWithGltf-png"></a>Image 1c: The 3D content pipeline with glTF.
 </p>
 

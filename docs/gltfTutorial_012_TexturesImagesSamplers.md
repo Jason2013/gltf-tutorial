@@ -1,3 +1,4 @@
+Previous: [Simple Material](gltfTutorial_011_SimpleMaterial.md) | [Table of Contents](README.md) | Next: [Simple Texture](gltfTutorial_013_SimpleTexture.md)
 
 # Textures, Images, and Samplers
 

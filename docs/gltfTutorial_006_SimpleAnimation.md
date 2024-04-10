@@ -1,3 +1,4 @@
+Previous: [Buffers, BufferViews, and Accessors](gltfTutorial_005_BuffersBufferViewsAccessors.md) | [Table of Contents](README.md) | Next: [Animations](gltfTutorial_007_Animations.md)
 
 
 # A Simple Animation
@@ -131,7 +132,7 @@ The following is the [minimal glTF file](gltfTutorial_003_MinimalGltfFile.md) th
 ```
 
 <p align="center">
-<img src="/images/animatedTriangle.gif" /><br>
+<img src="images/animatedTriangle.gif" /><br>
 <a name="animatedTriangle-gif"></a>Image 6a: A single, animated triangle.
 </p>
 
