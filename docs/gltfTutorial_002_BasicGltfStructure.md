@@ -1,4 +1,3 @@
-Previous: [Introduction](gltfTutorial_001_Introduction.md) | [Table of Contents](README.md) | Next: [A Minimal glTF File](gltfTutorial_003_MinimalGltfFile.md)
 
 
 # The Basic Structure of glTF
@@ -32,7 +31,7 @@ These indices are also used to define the *relationships* between the objects. T
 The following image (adapted from the [glTF concepts section](https://www.khronos.org/registry/glTF/specs/2.0/glTF-2.0.html#concepts)) gives an overview of the top-level elements of the JSON part of a glTF asset:
 
 <p align="center">
-<img src="images/gltfJsonStructure.png" /><br>
+<img src="../images/gltfJsonStructure.png" /><br>
 <a name="gltfJsonStructure-png"></a>Image 2a: The glTF JSON structure
 </p>
 
@@ -57,7 +56,7 @@ These elements are summarized here quickly, to give an overview, with links to t
 The binary data, like geometry and textures of the 3D objects, are usually not contained in the JSON file. Instead, they are stored in dedicated files, and the JSON part only contains links to these files. This allows the binary data to be stored in a form that is very compact and can efficiently be transferred over the web. Additionally, the data can be stored in a format that can be used directly in the renderer, without having to parse, decode, or preprocess the data.    
 
 <p align="center">
-<img src="images/gltfStructure.png" /><br>
+<img src="../images/gltfStructure.png" /><br>
 <a name="gltfStructure-png"></a>Image 2b: The glTF structure
 </p>
 

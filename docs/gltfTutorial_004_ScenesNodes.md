@@ -1,4 +1,3 @@
-Previous: [A Minimal glTF File](gltfTutorial_003_MinimalGltfFile.md) | [Table of Contents](README.md) | Next: [Buffers, BufferViews, and Accessors](gltfTutorial_005_BuffersBufferViewsAccessors.md)
 
 # Scenes and Nodes
 
@@ -27,7 +26,7 @@ There may be multiple scenes stored in one glTF file. The `scene` property indic
 Each [`node`](https://www.khronos.org/registry/glTF/specs/2.0/glTF-2.0.html#reference-node) can contain an array called `children` that contains the indices of its child nodes. So each node is one element of a hierarchy of nodes, and together they define the structure of the scene as a scene graph.  
 
 <p align="center">
-<img src="images/sceneGraph.png" /><br>
+<img src="../images/sceneGraph.png" /><br>
 <a name="sceneGraph-png"></a>Image 4a: The scene graph representation stored in the glTF JSON.
 </p>
 
@@ -72,7 +71,7 @@ There are different possible representations for the local transform of a node. 
 The matrix defined here is as shown in Image 4b.
 
 <p align="center">
-<img src="images/matrix.png" /><br>
+<img src="../images/matrix.png" /><br>
 <a name="matrix-png"></a>Image 4b: An example matrix.
 </p>
 
@@ -92,7 +91,7 @@ Each of these properties can be used to create a matrix, and the product of thes
 - The `translation` just contains the translation in x-, y-, and z-direction. For example, from a translation of `[ 10.0, 20.0, 30.0 ]`, one can create a translation matrix that contains this translation as its last column, as shown in Image 4c.
 
 <p align="center">
-<img src="images/translationMatrix.png" /><br>
+<img src="../images/translationMatrix.png" /><br>
 <a name="translationMatrix-png"></a>Image 4c: A translation matrix.
 </p>
 
@@ -100,7 +99,7 @@ Each of these properties can be used to create a matrix, and the product of thes
 - The `rotation` is given as a [quaternion](https://en.wikipedia.org/wiki/Quaternion). The mathematical background of quaternions is beyond the scope of this tutorial. For now, the most important information is that a quaternion is a compact representation of a rotation about an arbitrary angle and around an arbitrary axis. It is stored as a tuple `(x,y,z,w)`, where the `w`-component is the cosine of half of the rotation angle. For example, the quaternion `[ 0.259, 0.0, 0.0, 0.966 ]` describes a rotation about 30 degrees, around the x-axis. So this quaternion can be converted into a rotation matrix, as shown in Image 4d.
 
 <p align="center">
-<img src="images/rotationMatrix.png" /><br>
+<img src="../images/rotationMatrix.png" /><br>
 <a name="rotationMatrix-png"></a>Image 4d: A rotation matrix.
 </p>
 
@@ -108,7 +107,7 @@ Each of these properties can be used to create a matrix, and the product of thes
 - The `scale` contains the scaling factors along the x-, y-, and z-axes. The corresponding matrix can be created by using these scaling factors as the entries on the diagonal of the matrix. For example, the scale matrix for the scaling factors `[ 2.0, 1.0, 0.5 ]` is shown in Image 4e.
 
 <p align="center">
-<img src="images/scaleMatrix.png" /><br>
+<img src="../images/scaleMatrix.png" /><br>
 <a name="scaleMatrix-png"></a>Image 4e: A scale matrix.
 </p>
 
@@ -124,7 +123,7 @@ localTransform = translationMatrix * rotationMatrix * scaleMatrix;
 For the example matrices given above, the final, local transform matrix of the node will be as shown in Image 4f.
 
 <p align="center">
-<img src="images/productMatrix.png" /><br>
+<img src="../images/productMatrix.png" /><br>
 <a name="produtMatrix-png"></a>Image 4f: The final local transform matrix computed from the TRS properties.
 </p>
 

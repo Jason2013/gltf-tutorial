@@ -1,4 +1,3 @@
-Previous: [Simple Cameras](gltfTutorial_015_SimpleCameras.md) | [Table of Contents](README.md) | Next: [Simple Morph Target](gltfTutorial_017_SimpleMorphTarget.md)
 
 # Cameras
 

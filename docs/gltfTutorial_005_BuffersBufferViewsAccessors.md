@@ -1,4 +1,3 @@
-Previous: [Scenes and Nodes](gltfTutorial_004_ScenesNodes.md) | [Table of Contents](README.md) | Next: [Simple Animation](gltfTutorial_006_SimpleAnimation.md)
 
 
 # Buffers, BufferViews, and Accessors
@@ -20,7 +19,7 @@ A [`buffer`](https://www.khronos.org/registry/glTF/specs/2.0/glTF-2.0.html#refer
 
 
 <p align="center">
-<img src="images/buffer.png" /><br>
+<img src="../images/buffer.png" /><br>
 <a name="buffer-png"></a>Image 5a: The buffer data, consisting of 44 bytes.
 </p>
 
@@ -51,7 +50,7 @@ The first step of structuring the data from a `buffer` is with [`bufferView`](ht
 The first `bufferView` refers to the first 6 bytes of the buffer data. The second one refers to 36 bytes of the buffer, with an offset of 8 bytes, as shown in this image:
 
 <p align="center">
-<img src="images/bufferBufferView.png" /><br>
+<img src="../images/bufferBufferView.png" /><br>
 <a name="bufferBufferView-png"></a>Image 5b: The buffer views, referring to parts of the buffer.
 </p>
 
@@ -119,7 +118,7 @@ In the example above, the `byteOffset` of the `bufferView` with index 1 (which r
 Image 5c illustrates how the raw data of a `buffer` is structured using `bufferView` objects and is augmented with data type information using `accessor` objects.
 
 <p align="center">
-<img src="images/bufferBufferViewAccessor.png" /><br>
+<img src="../images/bufferBufferViewAccessor.png" /><br>
 <a name="bufferBufferViewAccessor-png"></a>Image 5c: The accessors defining how to interpret the data of the buffer views.
 </p>
 
@@ -129,7 +128,7 @@ Image 5c illustrates how the raw data of a `buffer` is structured using `bufferV
 The data of the attributes that are stored in a single `bufferView` may be stored as an *Array-Of-Structures*. A single `bufferView` may, for example, contain the data for vertex positions and for vertex normals in an interleaved fashion. In this case, the `byteOffset` of an accessor defines the start of the first relevant data element for the respective attribute, and the `bufferView` defines an additional `byteStride` property. This is the number of bytes between the start of one element of its accessors, and the start of the next one. An example of how interleaved position and normal attributes are stored inside a `bufferView` is shown in Image 5d.
 
 <p align="center">
-<img src="images/aos.png" /><br>
+<img src="../images/aos.png" /><br>
 <a name="aos-png"></a>Image 5d: Interleaved accessors in one buffer view.
 </p>
 
@@ -229,7 +228,7 @@ The following is a complete glTF asset, in embedded representation, that shows a
 The result of rendering this asset is shown in Image 5e:
 
 <p align="center">
-<img src="images/simpleSparseAccessor.png" /><br>
+<img src="../images/simpleSparseAccessor.png" /><br>
 <a name="simpleSparseAccessor-png"></a>Image 5e: The result of rendering the simple sparse accessor asset.
 </p>
 
@@ -268,7 +267,7 @@ In the example, the original geometry data is stored in the `bufferView` with in
 
 
 <p align="center">
-<img src="images/simpleSparseAccessorDescription.png" /><br>
+<img src="../images/simpleSparseAccessorDescription.png" /><br>
 <a name="simpleSparseAccessorDescription-png"></a>Image 5f: The substitution that is done with the sparse accessor.
 </p>
 

@@ -1,4 +1,3 @@
-Previous: [Simple Animation](gltfTutorial_006_SimpleAnimation.md) | [Table of Contents](README.md) | Next: [Simple Meshes](gltfTutorial_008_SimpleMeshes.md)
 
 # Animations
 
@@ -47,7 +46,7 @@ The following is another example of an `animation`. This time, the animation con
 The `samplers` array contains [`animation.sampler`](https://www.khronos.org/registry/glTF/specs/2.0/glTF-2.0.html#reference-animation-sampler) objects that define how the values that are provided by the accessors have to be interpolated between the key frames, as shown in Image 7a.
 
 <p align="center">
-<img src="images/animationSamplers.png" /><br>
+<img src="../images/animationSamplers.png" /><br>
 <a name="animationSamplers-png"></a>Image 7a: Animation samplers.
 </p>
 
@@ -112,7 +111,7 @@ The animations contain an array of [`animation.channel`](https://www.khronos.org
 In the example above, there are two channels for the animation. Both refer to the same node. The path of the first channel refers to the `translation` of the node, and the path of the second channel refers to the `rotation` of the node. So all objects (meshes) that are attached to the node will be translated and rotated by the animation, as shown in Image 7b.
 
 <p align="center">
-<img src="images/animationChannels.png" /><br>
+<img src="../images/animationChannels.png" /><br>
 <a name="animationChannels-png"></a>Image 7b: Animation channels.
 </p>
 

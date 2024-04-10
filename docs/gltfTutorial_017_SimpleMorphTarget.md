@@ -1,4 +1,3 @@
-Previous: [Cameras](gltfTutorial_016_Cameras.md) | [Table of Contents](README.md) | Next: [Morph Targets](gltfTutorial_018_MorphTargets.md)
 
 # A Simple Morph Target
 
@@ -206,7 +205,7 @@ The following is a minimal example that shows a mesh with two morph targets. The
 The asset contains an animation that interpolates between the different morph targets for a single triangle. A screenshot of this asset is shown in Image 17a.
 
 <p align="center">
-<img src="images/simpleMorph.png" /><br>
+<img src="../images/simpleMorph.png" /><br>
 <a name="simpleMorph-png"></a>Image 17a: A triangle with two morph targets.
 </p>
 
