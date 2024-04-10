@@ -30,7 +30,7 @@ def proc_file(f):
 
     for i, s in enumerate(content):
         if s.find('src="images') > -1:
-            content[i] = s.replace('src="images', 'src="/images')
+            content[i] = s.replace('src="images', 'src="../images')
 
     #content = content.replace('src="images', 'src="/images')
 
